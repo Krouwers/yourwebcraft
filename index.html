@@ -10,7 +10,7 @@
 <body>
 
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">YourWebCraft</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,21 +54,13 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/pc-banner.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                    <h1 class="display-2">YourWebCraft</h1>
-                    <h3 class="py-3">for all your graphic needs</h3>
-                    <a href="#about" class="btn btn-info btn-lg">Over ons</a>
-                    <a href="#services" class="btn btn-outline-light btn-lg">Ons aanbod</a>
-                </div>
+                <img src="images/banner.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="images/logo-banner.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1 class="display-2">Start-Up Bundle</h1>
-                    <h3 class="py-3">De perfecte start voor elke start-up!</h3>
-                    <a href="" class="btn btn-info btn-lg">Contact</a>
-                    <a href="bundle.html" class="btn btn-outline-light btn-lg">Meer info</a>
+                <img src="images/banner%20startup.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <button class="btn btn-outline-light">Meer info</button>
+                    <button class="btn btn-outline-light">andere services</button>
                 </div>
             </div>
         </div>
@@ -79,6 +71,84 @@
     <article id="about" class="py-lg-5 py-5 row">
         <h2>About</h2>
         <p class="col-lg-7 col-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consequuntur cupiditate incidunt maiores nesciunt? Atque eveniet ex id illo provident quae, tempora! Aperiam blanditiis, deserunt dolorum ducimus esse est et exercitationem facilis fuga incidunt labore molestias nulla numquam omnis quaerat quas quis rem rerum sapiente similique sunt veritatis, voluptates voluptatibus? Accusantium aliquid, blanditiis consectetur dolor doloribus ducimus et nam nemo, nesciunt porro quibusdam, quo reiciendis saepe sed similique ullam voluptatem voluptates! A beatae delectus voluptates.</p>
+    </article>
+
+    <article id="services">
+
+        <div class="container-fluid">
+            <div class="container p-5">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <div class="card card1 h-100">
+                            <div class="card-body">
+
+                                <h5 class="card-title">Website</h5>
+                                <small class='text-muted'>Met 4 pagina's</small>
+                                <br><br>
+                                <span class="h2">€475</span>
+                                <br><br>
+                                <div class="d-grid my-3">
+                                    <button class="btn btn-outline-dark btn-block" onclick="window.location.href='website.html'"> Meer info</button>
+                                </div>
+                                <ul>
+                                    <li>4 pagina's</li>
+                                    <li>goede styling</li>
+                                    <li>+ variabele hosting kosten</li>
+                                    <li>+ domein naam kosten</li>
+
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <div class="card card2 h-100">
+                            <div class="card-body">
+
+                                <h5 class="card-title">Logo</h5>
+                                <small class='text-muted'>met copyright</small>
+                                <br><br>
+                                <span class="h2">€275</span>
+                                <br><br>
+                                <div class="d-grid my-3">
+                                    <button class="btn btn-outline-dark btn-block" onclick="window.location.href='logo.html'"> Meer info</button>
+                                </div>
+                                <ul>
+                                    <li>Uitgewerkt logo</li>
+                                    <li>Copyright</li>
+                                    <li>naar u stijl</li>
+
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <div class="card card3 h-100">
+                            <div class="card-body">
+
+                                <h5 class="card-title">Start-up bundle</h5>
+                                <small class='text-muted'>Logo + website</small>
+                                <br><br>
+                                <span class="h2">€695</span>
+                                <br><br>
+                                <div class="d-grid my-3">
+                                    <button class="btn btn-outline-dark btn-block" onclick="window.location.href='bundle.html'"> Meer info</button>
+                                </div>
+                                <ul>
+                                    <li>Volledige website</li>
+                                    <li>Uitgewerkt logo</li>
+                                    <li>mooie styling</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </article>
 
     <article id="werking" class="py-5">
@@ -118,46 +188,12 @@
         </div>
     </article>
 
-    <article id="services" class="py-5">
-        <h2>Services</h2>
-        <div class="row row-cols-1 row-cols-lg-3 g-4 row-cols-1">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/pexels-negative-space-160107.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Website</h5>
-                        <p class="card-text">Bent u opzoek naar een volledig nieuwe website, of wilt u gewoon uw oude website een verbeterde/geüpdate look geven? Twijfel niet en contacteer ons voor een cleane en gevalideerde website volgens de normen van webdesign.</p>
-                        <a href="website.html" class="btn btn-outline-primary">Meer info</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/logo-(2).jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Logo</h5>
-                        <p class="card-text">Net begonnen met uw bedrijf en een logo nodig om net dat beetje meer professioneler over te komen? Of hebt u al een logo maar wil u deze vernieuwen om met de tijd mee te blijven? Neem dan snel met ons contact op.</p>
-                        <a href="logo.html" class="btn btn-outline-primary">Meer info</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/logoweb.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Website + Logo Start-Up bundle <span class="badge bg-info">New!</span></h5>
-                        <p class="card-text">Opzoek om uw eigen bedrijf opstarten maar weet u niet waar u moet beginnen? Geen probleem! Onze Start-Up bundle bied de perfecte start. Wij voorzien uw bedrijf van een logo en een website, uw visite kaartje naar uw bedrijf met andere woorden. Neem dus snel contact op met ons!</p>
-                        <a href="bundle.html" class="btn btn-outline-primary">Meer info</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </article>
+
 
 </main>
 
 
-<footer id="contact" class="row py-lg-3 absolute-bottom bg-dark text-center text-light container-fluid mx-0">
+<footer id="contact" class="row py-lg-3 absolute-bottom text-center text-light container-fluid mx-0">
         <h2 class="d-none d-lg-block">Contacteer ons!</h2>
         <div class="py-lg-2 py-3 col-md-4 offset-md-2 py-sm-4 col-sm-12">
             <h3>Contact info</h3>
