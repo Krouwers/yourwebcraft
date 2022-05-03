@@ -104,6 +104,69 @@
 
         </div>
     </article>
+
+    <article id="request" class="py-5">
+
+        <div class="container">
+            <div class="row mx-0">
+                <div class="col-5">
+                    <h2>Contacteer ons!</h2>
+                    <p>In het veld hiernaast kan u een request naar ons versturen. Voel u dan ook vrij om enkele vragen te stellen. Als u een pakket wilt kopen gelieve dan ook eventjes te vermelden welk pakket u zou willen kopen. Wij krijgen uw request aan een nemen zo snel mogelijk contact met u op.</p>
+                </div>
+                <div class="col-7 px-2">
+                    <form method="POST" class="w-100 rounded-1 p-4 border text-secondary bg-dark border-secondary" action="mail.php">
+                        <label class="d-block mb-4">
+                            <span class="form-label d-block text-light">Uw naam</span>
+                            <input
+
+                                    name="name"
+                                    type="text"
+                                    class="form-control text-light border-secondary bg-transparent"
+                                    placeholder="John Doe"
+                            />
+                        </label>
+
+                        <label class="d-block mb-4">
+                            <span class="form-label d-block text-light">Geef uw email address</span>
+                            <input
+                                    name="email"
+                                    type="email"
+                                    class="form-control border-secondary bg-transparent text-light"
+                                    placeholder="john.doe@example.com"
+                                    required
+                            />
+                        </label>
+
+                        <label class="d-block mb-4">
+          <span
+                  class="
+              form-label
+              d-block
+              text-light
+              border-secondary
+              bg-transparent
+            "
+          >Uw aanvraag</span>
+                            <textarea
+                                    name="message"
+                                    class="form-control border-secondary bg-transparent text-light"
+                                    rows="3"
+                                    placeholder="Geef ons enkele nuttige info over uw aanvraag of stel gewoon een vraag..."
+                                    required
+                            ></textarea>
+                        </label>
+
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-primary px-3 rounded-3">
+                                verstuur
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </article>
 </main>
 
 <footer id="contact" class="row py-lg-3 absolute-bottom bg-dark text-center text-light container-fluid mx-0">
